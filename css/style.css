@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Paytone+One&display=swap');
+
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Carrois Gothic SC', sans-serif;}
+body, html {
+  height: 100%;
+  color: rgb(5, 5, 5);
+  line-height: 1.5;
+ font-size: 1em; 
+
+  
+} 
+
+h1{
+  font-size: 3em;
+  text-align: center;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 1.5em;
+  text-align: center;
+
+}
+
+h3{
+  font-size: 1.25em;
+  text-align: center;
+  line-height: 1.5;
+  
+}
+
+p {
+  padding: 30px;
+  text-align: left;
+}
+
+a{ color: #c5fff3;
+
+}
+
+/* Navbar code adapted from W3Schools: https://www.w3schools.com/howto/howto_js_topnav.asp*/
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(149, 23, 203);
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #B3FFBE; text-decoration: underline; color: #010101;}
+  
+  ul.topnav li a.active {background-color: #B3FFBE; text-decoration: underline; color: #010101;}
+  
+  ul.topnav li.right {float: right;}
+
+
+  footer{
+    background-color:rgb(149, 23, 203);
+    color: white;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #B3FFBE;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  @-webkit-keyframes ufo{
+
+    from {
+
+    
+     width: 10%;
+    }
+    to {
+     width: 100%;
+    }
+    
+  
+  }
+  
+  @keyframes ufo
+  {
+    from {
+     width: 10%;
+    }
+    to {
+      width: 100%;
+    }
+  
+  
+  } 
+  
+  
+  #ufo{
+  
+    animation-name: ufo;
+
+    animation-duration: 5s;
+    -webkit-animation-name: ufo;
+  
+  }
+
+  .photobox {
+    width: 200px;
+    height: 120px;
+    justify-content: center;
+    padding:40px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  
+  }
